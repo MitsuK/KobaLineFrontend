@@ -1,0 +1,8 @@
+.usernameField {
+    width: 196px;
+    font-size: 36px;
+    margin: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

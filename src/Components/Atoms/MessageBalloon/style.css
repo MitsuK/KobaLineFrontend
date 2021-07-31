@@ -1,0 +1,76 @@
+.messageBalloon{
+    display: inline-block;
+    position: relative;
+    margin: 0 20px 20px 20px;
+    padding: 0;
+    width: 680px;
+    border: 1px solid #000000;
+    text-align: left;
+}
+.messageBalloon::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    right: -32px;
+    top: 20px;
+    border-style: solid;
+    border-width: 24px 32px 0 0;
+    border-color: #000000 transparent transparent transparent;
+
+  }
+  .messageBalloon::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    right: -29px;
+    top: 21px;
+    border-style: solid;
+    border-width: 24px 32px 0 0;
+    border-color: #ffffff transparent transparent transparent;
+  }
+
+
+  .messageBalloonFromOthers{
+    display: inline-block;
+    position: relative;
+    margin: 0 20px 20px 20px;
+    padding: 0;
+    width: 680px;
+    border: 1px solid #000000;
+    text-align: left;
+}
+  .messageBalloonFromOthers::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    right: 678px;
+    top: 20px;
+    border-style: solid;
+    border-width: 24px 0 0 32px;
+    border-color: #000000 transparent transparent transparent;
+
+  }
+  .messageBalloonFromOthers::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    right:675px;
+    top: 21px;
+    border-style: solid;
+    border-width: 24px 0 0 32px;
+    border-color: #ffffff transparent transparent transparent;
+  }
+
+.messageBalloonText {
+    font: 36px 'robot';
+    margin: 16px;
+
+}

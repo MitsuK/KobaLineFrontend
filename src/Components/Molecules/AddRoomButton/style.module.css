@@ -1,0 +1,26 @@
+.addRoomButton {
+        @apply w-64 text-left inline-block;
+        border-radius: 16px;
+        padding-left: 8px;
+}
+
+.addRoomButton:hover {
+    background-color: lightgray;
+}
+
+.addRoomButton:focus {
+    outline: none;
+    background-color: lightgray;
+}
+
+.addRoom {
+    @apply m-2;
+}
+
+.usernameSmall {
+    @apply text-base inline-block w-24 m-auto text-left align-middle;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 32px;
+}

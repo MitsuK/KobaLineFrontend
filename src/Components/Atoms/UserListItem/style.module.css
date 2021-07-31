@@ -1,0 +1,40 @@
+.userListItemButton {
+    @apply w-64 text-left;
+    border-radius: 16px;
+    padding-left: 8px;
+}
+
+.withoutHover {
+    @apply w-64 text-left;
+    border-radius: 16px;
+    padding-left: 8px;
+}
+
+
+.userListItem {
+    @apply m-2;
+}
+
+.userListItemButton:hover {
+    background-color: lightgray;
+}
+
+.userListItemButton:focus {
+    outline: none;
+    background-color: lightgray;
+}
+
+.roundIconSmall {
+    @apply inline-block m-auto w-16 h-16;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #000000;
+  }
+
+.usernameSmall {
+    @apply text-base inline-block w-24 m-auto text-left align-middle;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 32px;
+}

@@ -1,0 +1,19 @@
+.messageForm {
+    @apply mx-8;
+}
+
+.messageFormTextarea {
+    border: 1px solid black;
+    width: 100%;
+    resize: none;
+}
+
+.formButton {
+    @apply text-base;
+    width: 100%;
+}
+
+
+.messageFormTextarea input,textarea{
+    @apply text-base;
+}
